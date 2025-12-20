@@ -1,10 +1,3 @@
-
-//  setitem é para adicionar na memoria 
-//  getitem é pra pegar na memoria  
-//  json.stringify é pra guardar arrays na memoria
-//  json.parse é pra pegar arrays na memoria
-
-
 // ------- CADASTRO ----------
 
 const botao = document.getElementById("btn1")
