@@ -1,5 +1,5 @@
 // ------- CADASTRO ----------
-
+// branch teste
 const botao = document.getElementById("btn1")
 
 if(botao){botao.addEventListener("click", ()=>{
