@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(img/nuvem.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 420px;
+    text-align: center;
+    color: white;
+    padding: 30px 40px ;
+    border-radius: 23px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.92);
+    backdrop-filter: blur(4px);
+}
+.cadastrar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    background-color: rgba(255, 255, 255, .2);
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+}
+::placeholder{
+    color: white;
+}
+#btn1{
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+#btn1:hover{
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.92);
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#btn2{
+    padding: 20px;
+    margin: 20px 0px 0px;
+    border-radius: 20px;
+    border: none;
+    
+}
+#btn2:hover{
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.92);
+}
+a{
+    color: rgb(196, 133, 255);
+    text-decoration: none;
+}
+#btn3{
+    padding: 20px;
+    margin: 20px 0px 0px;
+    border-radius: 20px;
+    border: none;
+    
+}
+#btn3:hover{
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.92);
+}
+#irlogin{
+    padding: 10px;
+    margin: 20px 0px 0px;
+    border-radius: 20px;
+    border: none;
+    display: none;
+}
+#irlogin:hover{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.92);
+}
+.Pdados{
+    color: rgb(255, 61, 61);
+    display: none;
+}
+.resul{
+    color: rgb(0, 145, 0);
+    display: none;
+    background-color: #d1d1d1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 3px rgba(255, 255, 255, 0.92);
+}
+.ccampo{
+    color: rgb(255, 61, 61);
+    display: none;
+}
+#sucesso{
+    display: none;
+}
+#cadastrado{
+    display: none;
+}
+#numin{
+    color: rgb(255, 61, 61);
+    display: none;
+}
+#emailfalse{
+    color: rgb(255, 61, 61);
+    display: none;
+}
